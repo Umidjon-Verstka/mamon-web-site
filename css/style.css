@@ -106,3 +106,41 @@ body{
 }
 .fa-bars {
 }
+
+/* CONTENT SECTION */
+.content {
+    padding: 0px 0px 100px 0px;
+}
+.content__container {
+}
+.content__title {
+    font-weight: 700;
+    font-size: 57px;
+    line-height: calc(65.49 / 57 * 100%);
+    color: #202020;
+    /* text-align: center; */
+    margin: 0px 0px 35px 0px;
+}
+.content__text {
+    max-width: 743px;
+    font-size: 32px;
+    line-height: calc(51.48 / 32 * 100%);
+    color: #4f4f4f;
+    margin: 0px 0px 70px 0px;
+}
+.content__btn {
+    font-size: 24px;
+    line-height: calc(27.58 / 24 * 100%);
+    padding: 16px 58px;
+    border-radius: 10px;
+    background-color: #5528FF;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.2s linear;
+}
+.content__btn:hover{
+    opacity: 0.8;
+}
+.content__btn:active{
+    opacity: 0.6;
+}
