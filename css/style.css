@@ -1,7 +1,7 @@
 /* Variables */
 :root{
     /* --name: value */
-    --main-bg-color: #b2b2b2;
+    --main-bg-color: #fff;
     --main-text-color: #E5E5E5;
     --main-font-family: 'Ubuntu', sans-serif;
     --main-font-weight: 400;
@@ -28,3 +28,81 @@ body{
     line-height: 1;
 }
 /* Sections */
+
+/* HEADER SECTION */
+.header {
+    padding: 53px 0px 117px 0px;
+}
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: calc(27.58 / 24 * 100%);
+    color: #202020;
+    text-decoration: none;
+    transition: all 0.2s linear;
+}
+.header__logo:hover{
+    opacity: 0.8;
+}
+.header__logo:active{
+    opacity: 0.6;
+}
+.header__logo-img {
+    margin: 0px 25px 0px 0px;
+}
+.header__logo-text {
+}
+.header__nav {
+}
+.header__nav-list {
+    display: flex;
+}
+.header__nav-item {
+}
+.header__nav-item:not(:last-child){
+    margin: 0px 37px 0px 0px;
+}
+.header__nav-link {
+    text-decoration: none;
+    font-weight: 700;
+    line-height: calc(16.09 / 14 * 100%);
+    color: #202020;
+    transition: all 0.2s linear;
+}
+.header__nav-link:hover{
+    color: #5528FF;
+}
+.header__nav-link:active{
+    color: #5528FF;
+    opacity: 0.8;
+}
+.header__nav-btn {
+    font-weight: 700;
+    line-height: calc(16 / 14 * 100%);
+    border-radius: 5px;
+    background-color: #5528FF;
+    color: #fff;
+    padding: 4px 14px;
+    text-decoration: none;
+    transition: all 0.2s linear;
+}
+.header__nav-btn:hover{
+    opacity: 0.8;
+}
+.header__nav-btn:active{
+    opacity: 0.6;
+}
+.header__menu {
+    display: none;
+}
+.fa-solid {
+}
+.fa-bars {
+}
